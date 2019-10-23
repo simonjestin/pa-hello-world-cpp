@@ -1,5 +1,5 @@
 properties([
-	pipelinetriggers([pollSCM('H/3 * * * *')])
+	pipelineTriggers([pollSCM('H/3 * * * *')])
 	])
 
 node() {
