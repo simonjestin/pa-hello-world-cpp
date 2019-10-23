@@ -1,6 +1,6 @@
 properties([
-	pipelinetriggers([pollSCM('H/3 * * * *')]
-	)]
+	pipelinetriggers([pollSCM('H/3 * * * *')])
+	])
 
 node() {
 	cleanWs()
