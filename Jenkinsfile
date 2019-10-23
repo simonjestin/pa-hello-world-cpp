@@ -5,6 +5,6 @@ properties([
 node() {
 	cleanWs()
 	checkout scm
-	sh"make"
-	sh"./main"
+	sh "make"
+	sh "./main"
 }
