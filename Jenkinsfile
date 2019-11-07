@@ -7,5 +7,5 @@ node() {
 	checkout scm
 	sh "make"
 	sh "./main"
-	archiveArtifacts artifacts: 'build/*.zip'
+	archiveArtifacts artifacts: 'main.zip'
 }
