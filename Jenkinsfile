@@ -7,4 +7,9 @@ node() {
 	checkout scm
 	sh "make"
 	sh "./main"
+	archiveArtifacts artifacts: 'generatedFile.zip'
+}
+
+archiveArtifacts {
+	artifacts:'toto.zip'
 }
